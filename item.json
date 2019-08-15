@@ -1,0 +1,43 @@
+{
+	"Head": "Weied Deals",
+	"secondHead": "Welcome To Weied Deals of the day",
+	"active": true,
+	"topDeals": [
+        {
+            "name": "Cat Butt Tissue Holder",
+			"price": 32.99,
+			"description": " Keep your tissues close at hand with the help of your trusty feline friend",
+			"fectures": [
+				"Black & White",
+				"Greate Gift for cat lovers",
+				"easy to clean",
+				"designed to last"
+			],
+			"image": "cat.jpg"
+        },
+           {
+            "name": "Cat Butt Tissue Holder",
+			"price": 32.99,
+			"description": " Keep your tissues close at hand with the help of your trusty feline friend",
+			"fectures": [
+				"Black & White",
+				"Greate Gift for cat lovers",
+				"easy to clean",
+				"designed to last"
+			],
+			"image": "bull.jpeg"
+        },
+           {
+            "name": "Cat Butt Tissue Holder",
+			"price": 32.99,
+			"description": " Keep your tissues close at hand with the help of your trusty feline friend",
+			"fectures": [
+				"Black & White",
+				"Greate Gift for cat lovers",
+				"easy to clean",
+				"designed to last"
+			],
+			"image": "pizza.jpg"
+        }
+	]
+}

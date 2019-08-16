@@ -1,0 +1,148 @@
+
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+
+		}
+
+		body {
+			font-size: 16px;
+		}
+
+		.page-wrap {
+			max-width: 100%;
+			min-height: 100vh;
+			position: relative;
+			z-index: 1;
+
+		}
+
+.pagewrap {
+	background: url(my.jpg); background-size: cover;
+}
+		.pagewrap-overlay {
+			background-color: #c92;
+			position: absolute;
+			z-index: -1;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0.8;
+
+		}
+
+		.content {
+			width: 600px;
+			margin: 0 auto;
+			padding: 10vh 0;
+
+		}
+
+		header {
+			background-color: white;
+			width: 100%;
+			height: 110px;
+			text-align: center;
+			position: relative;
+		}
+
+		header:after {
+			content: "";
+			position: absolute;
+			bottom: -11px;
+			left: 0;
+			width: 100%;
+			height: 30px;
+			background-color: white;
+			z-index: 1;
+			transform: skewY(2deg);
+		}
+
+      header h1 {
+      	font-size: 50px;
+      	letter-spacing: 2px;
+      }
+
+      .header-content {
+      	position: absolute;
+      	top: 40%;
+      	left: 40%;
+      	transform: translate(-50%, -50%);
+      }
+
+.text {
+	font-weight: 600;
+	text-align: center;
+}
+
+section {
+	position: relative;
+	height: 500px;
+	background-image: url(my.jpg); background-size: cover;
+}
+
+form {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #222;
+	height: 100%;
+	opacity: 0.8;
+	padding: 60px 0;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+input, select {
+	display: block;
+	width: 70%;
+	height: 60px;
+	background: transparent;
+	border: 1px solid #555;
+	border-radius: 5px;
+	margin: 0 auto;
+	font-size: 18px;
+	color: white;
+	letter-spacing: 2px;
+	padding-left: 20px;
+	margin-top: 20px;
+
+}
+
+
+input:focus {
+	outline: none;
+
+}
+
+::-webkit-input-placeholder {
+	color: white;
+
+}
+select {
+	-moz-appearance:none;
+	-webkit-appearance: none;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+.submit {
+	background: linear-gradient(to right, #fa1, #fc1);
+	width: 30%;
+	top: 12%;
+	height: 65px;
+	border: none;
+	border-radius: 5px;
+	margin: 0 auto;
+	font-size: 15px;
+	color: white;
+	letter-spacing: 3px;
+	display: block;
+	font-weight: 900;
+	position: relative;
+	
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	cursor: pointer;
+}

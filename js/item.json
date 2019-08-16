@@ -1,0 +1,47 @@
+{
+	"Head": "Weird Deals",
+	"secondHead": "Welcome To Weird Deals of the day",
+	"active": true,
+	"topDeals": [
+        {
+            "name": "Cat Butt Tissue Holder",
+			"price": 32.99,
+			"description": " Keep your tissues close at hand with the help of your trusty feline friend",
+			"fectures": [
+				"Black & White",
+				"Greate Gift for cat lovers",
+				"easy to clean",
+				"designed to last"
+			],
+			"image": "cat.jpg"
+        },
+           {
+            "name": "A Pizza Hat",
+			"price": 11.62,
+			"description": " Finally, you can indulge in everyone’s life-long desire of wearing pizza atop their head.",
+			"fectures": [
+				"Looks like pepperoni and cheese pizza",
+				"As seen at carnivals, parades, theme parties",
+				"easy to clean",
+				"Fun with Hat"
+			],
+			"image": "pizza.jpg"
+        },
+           {
+            "name": "An inflatable pool bull",
+			"price": 34.50,
+			"description": " When you want to turn your pool party up to 11, try this inflatable bull",
+			"fectures": [
+				"Plastic",
+				"Imported",
+				"Tame the Bull"
+				
+			],
+			"image": "bull.jpeg"
+        }
+	]
+}
+
+
+
+
